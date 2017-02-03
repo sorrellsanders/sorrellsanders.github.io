@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sorrell Sanders</title>
+    <meta name="author" content="" />
+    <meta name="description" content="Sorrell Sanders - Actor and Voiceover Artist." />
+    <meta name="keywords"  content="sorrell, sanders, actress, voiceover, artist" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <style>
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+        font-size: 5em;
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+    }
+    .intro p{
+        font-size: 1.2em;
+        font-family: arial,helvetica;
+        color: #fff;
+    }
+
+    /* Centered texts in each section
+    * --------------------------------------- */
+    .section{
+        text-align:center;
+    }
+
+
+    #section2{
+        background-image: url(imgs/sorrell3.jpg);
+        font-size: 1.0em;
+        font-family: helvetica;
+    }
+
+    /* Bottom menu
+    * --------------------------------------- */
+    #infoMenu li a {
+        color: #fff;
+    }
+    </style>
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="vendors/scrolloverflow.js"></script>
+
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="examples.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                menu: '#menu',
+                anchors: ['home', 'reel', 'contact'],
+                sectionsColor: ['#000000', '#1BBC9B', '#7E8F7C'],
+                autoScrolling: false
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<ul id="menu">
+    <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+    <li data-menuanchor="reel"><a href="#reel">Reels</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+    <li><a href="http://www.expandedfilms.com/expanded_films_resume.pdf">Resume</a></li>
+</ul>
+
+<div id="fullpage">
+    <div class="section " id="section0">
+        <div class="intro">
+            <img src="imgs/sorrell1.jpg"  alt="1"/>
+            <p>
+                <a href="https://www.facebook.com/sorrell.sanders"><img width="25px" src="imgs/fb_icon.png" /></a>&nbsp;
+                <a href="https://vimeo.com/user8173268"><img width="22px" src="imgs/vimeo_icon.png" /></a>&nbsp;
+                <a href="http://www.imdb.com/name/nm2696423/"><img width="50px" src="imgs/imdb_icon.png" /></a>
+            </p>
+        </div>
+    </div>
+
+    <div class="section" id="section1">
+        <div class="slide" id="slide1">
+            <div class="intro">
+                <iframe src="https://player.vimeo.com/video/91484417?color=1BBC9B&portrait=0" width="1024" height="576" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="slide" id="slide2">
+            <iframe src="https://player.vimeo.com/video/91484975?color=1BBC9B&title=0&portrait=0" width="1024" height="768" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+
+
+    </div>
+
+    <div class="section" id="section2">
+        <div class="intro">
+            <p style="text-align:left; margin:0px 0px 0px 65%; color: #222;">
+			<a href="mailto:sorrellsanders@gmail.com" style="color:#222;"><img src="imgs/email_icon.png" width="25px" /> SorrellSanders@gmail.com</a><br />
+			<img src="imgs/tel_icon.jpg" width="25px" /> 404 430 1104<br /><br />
+            <a href="mailto:info@privilegetalentagency.com">Privilege Talent</a><br />
+		</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
